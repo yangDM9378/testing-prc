@@ -1,0 +1,88 @@
+# Node.js & React 기본 gitignore
+
+# Node Modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build artifacts
+build/
+dist/
+*.out
+
+# Runtime files
+*.cache/
+*.tmp/
+*.swp
+
+# IDE/Editor 설정
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# 환경 파일
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage 파일 (테스트 커버리지)
+coverage/
+
+# Service Worker & PWA 캐싱
+.pnp/
+.pnp.js
+
+# Parcel 빌드 아티팩트
+.cache/
+.parcel-cache/
+
+# Storybook
+storybook-static/
+
+# eslint cache
+.eslintcache
+
+# TypeScript 빌드 아티팩트
+*.tsbuildinfo
+
+# MacOS, Linux, Windows 파일
+*.~undo-tree*
+*.lock~
+*.swp~
+.nfs*
+
+# Next.js 빌드 파일 (React로 Next.js를 사용하는 경우)
+.next/
+
+# React Native
+.expo/
+.expo-shared/
+
+# Firebase
+.firebase/
+firestore.rules.bak
+firebase-debug.log
+
+# 기타
+*.bak
+*.tmp
